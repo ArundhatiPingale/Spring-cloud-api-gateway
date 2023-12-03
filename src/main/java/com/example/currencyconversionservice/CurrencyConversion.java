@@ -17,7 +17,7 @@ public class CurrencyConversion {
     	
     }
     
-	public CurrencyConversion(Long id, String from, String to,  BigDecimal quantity,BigDecimal conversionMutiple , String environment) {
+	public CurrencyConversion(Long id, String from, String to,  BigDecimal quantity,BigDecimal conversionMutiple , BigDecimal totalcalculatedamount, String environment) {
 		super();
 		this.id = id;
 		this.from = from;
